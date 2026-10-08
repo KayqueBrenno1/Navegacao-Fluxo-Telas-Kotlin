@@ -45,7 +45,7 @@ fun MenuScreen(
             verticalArrangement = Arrangement.spacedBy(10.dp)
         ) {
             Button(
-                onClick = { navController.navigate("perfil") },
+                onClick = { navController.navigate("perfil/kayque/18") },
                 colors = ButtonDefaults.buttonColors(
                     Color.White
                 ),
@@ -63,7 +63,7 @@ fun MenuScreen(
             }
 
             Button(
-                onClick = { navController.navigate("pedidos") },
+                onClick = { navController.navigate("pedidos?numeroPedido=8922") },
                 colors = ButtonDefaults.buttonColors(
                     Color.White
                 ),
